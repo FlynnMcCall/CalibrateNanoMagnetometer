@@ -78,7 +78,7 @@ void loop() {
     Serial.print(magVec[1] / (float) BUFFER_SIZE);
     Serial.print(",");
     Serial.print(magVec[2] / (float) BUFFER_SIZE);
-    Serial.print(",");
+    Serial.println();
     */
 
     Serial.print(mSmoothingBuffer[0 * BUFFER_SIZE + insertPos]);
