@@ -20,6 +20,7 @@ We find the centre of the circles by taking the mean of the most extreme points 
 
 <img width="813" alt="Final plot output" src="https://github.com/user-attachments/assets/945e9bd3-68be-4b11-9870-2fd1e9425281" />
 
+Btw: You can generate a smoothed output by uncommenting lines 76-81 in the ino script, and commenting out the current output.
 
 # How to use
 - First set the serial port on line 6 of PlotMagnetometerBias.py.
